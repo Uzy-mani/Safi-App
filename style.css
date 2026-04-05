@@ -87,3 +87,75 @@ li {
     padding: 15px;
   }
 }
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===== HERO SECTION (Landing Page) ===== */
+.hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #0d6efd, #6610f2);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 400px;
+}
+
+/* ===== BUTTON STYLE UPGRADE ===== */
+button {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.08);
+}
+
+/* ===== CARD GRID (for dashboard later) ===== */
+.card {
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
