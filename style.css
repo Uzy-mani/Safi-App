@@ -159,3 +159,50 @@ button:hover {
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   text-align: center;
 }
+/* ===== APP WRAPPER (PHONE STYLE) ===== */
+.app {
+  max-width: 400px;
+  height: 100vh;
+  margin: auto;
+  background: #f8f9fa;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* ===== CONTENT AREA ===== */
+.app-content {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+/* ===== BOTTOM NAV (LIKE REAL APPS) ===== */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+.bottom-nav a:hover {
+  color: #0d6efd;
+}
