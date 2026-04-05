@@ -7,57 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Header / Navigation -->
     <header>
-        <nav>
-            <h1>Safi</h1>
-            <ul>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to Safi App</h1>
+        <p>Your platform for connecting skilled individuals with employers</p>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Find Jobs Fast & Easy</h2>
-        <p>Safi helps people showcase their skills and get employment opportunities.</p>
-        <button onclick="showMessage()">Get Started</button>
-        <img src="https://via.placeholder.com/400x200" alt="Safi App Preview">
-    </section>
-
-    <!-- Features Section -->
     <section id="features">
-        <h2>Features</h2>
-        <div class="features-container">
-            <div class="feature">
-                <h3>Skill Matching</h3>
-                <p>Connect with jobs that fit your skills perfectly.</p>
-            </div>
-            <div class="feature">
-                <h3>Easy Applications</h3>
-                <p>Apply with just a few clicks and track your progress.</p>
-            </div>
-            <div class="feature">
-                <h3>Job Alerts</h3>
-                <p>Receive notifications for new opportunities.</p>
-            </div>
-        </div>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Find skilled workers easily</li>
+            <li>Post jobs quickly</li>
+            <li>Connect with local talent</li>
+        </ul>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Safi</h2>
-        <p>Safi is a platform dedicated to connecting skilled individuals with meaningful employment opportunities.</p>
+    <section id="job-list">
+        <h2>Available Jobs</h2>
+        <ul id="jobs"></ul>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Safi App. All rights reserved.</p>
-    </footer>
+    <section id="job-form">
+        <h2>Add a Job</h2>
+        <form id="addJobForm">
+            <input type="text" id="jobInput" placeholder="Enter job title" required>
+            <button type="submit">Add Job</button>
+        </form>
+    </section>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
