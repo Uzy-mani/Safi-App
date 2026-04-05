@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile - Safi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>My Profile</h2>
+
+  <div id="profileContainer">
+    <p><strong>Name:</strong> <span id="userName">John Doe</span></p>
+    <p><strong>Email:</strong> <span id="userEmail">john@example.com</span></p>
+    <p><strong>Role:</strong> <span id="userRole">Worker</span></p>
+
+    <h3>Update Profile</h3>
+
+    <form id="profileForm">
+      <input type="text" id="nameInput" placeholder="Full Name"><br><br>
+      <input type="email" id="emailInput" placeholder="Email"><br><br>
+      <select id="roleInput">
+        <option value="Worker">Worker</option>
+        <option value="Employer">Employer</option>
+      </select><br><br>
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
