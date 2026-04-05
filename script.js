@@ -1,3 +1,7 @@
-function showMessage() {
-    alert("Welcome to Safi! Let's get started on your job search.");
-}
+document.getElementById("signupForm")?.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  alert("Account created successfully!");
+
+  window.location.href = "dashboard.html";
+});
