@@ -1,7 +1,17 @@
-document.getElementById("signupForm")?.addEventListener("submit", function(e) {
-  e.preventDefault();
+const profileForm = document.getElementById("profileForm");
 
-  alert("Account created successfully!");
+if (profileForm) {
+  profileForm.addEventListener("submit", function(e) {
+    e.preventDefault();
 
-  window.location.href = "dashboard.html";
-});
+    const name = document.getElementById("nameInput").value;
+    const email = document.getElementById("emailInput").value;
+    const role = document.getElementById("roleInput").value;
+
+    if(name) document.getElementById("userName").textContent = name;
+    if(email) document.getElementById("userEmail").textContent = email;
+    if(role) document.getElementById("userRole").textContent = role;
+
+    alert("Profile updated successfully!");
+  });
+}
