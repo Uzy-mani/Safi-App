@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Safi - Login</title>
-  <link rel="stylesheet" href="css/auth.css">
+  <title>Safi - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="auth-container">
-    <h2>Login to Safi</h2>
-    <form id="login-form">
-      <input type="email" id="login-email" placeholder="Email" required>
-      <input type="password" id="login-password" placeholder="Password" required>
-      <button type="submit">Login</button>
-    </form>
-    <p>Don't have an account? <a href="signup.html">Sign Up here</a></p>
-  </div>
-  <script src="js/auth.js"></script>
+
+  <h2>Create Account</h2>
+
+  <form id="signupForm">
+    <input type="text" placeholder="Full Name" required><br><br>
+    <input type="email" placeholder="Email" required><br><br>
+    <input type="password" placeholder="Password" required><br><br>
+
+    <select>
+      <option>Select Role</option>
+      <option>Worker</option>
+      <option>Employer</option>
+    </select><br><br>
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script src="script.js"></script>
 </body>
 </html>
